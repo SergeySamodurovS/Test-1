@@ -24,7 +24,7 @@ namespace WpfApp1
             }
 
             Label_Word.Text = dictionary.First().Key;
-            Button_Variant1.Content = "помогите";
+            Button_Variant1.Content = dictionary.First().Value;
             Button_Variant2.Content = "опасность";
             Button_Variant3.Content = "забыл";
             Button_Variant4.Content = "ого";
