@@ -1,0 +1,19 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="200" Width="200">
+    <Grid>
+        <TextBlock x:Name="Label_Word" HorizontalAlignment="Left" Margin="68,28,0,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <Button x:Name="Button_Variant1" Content="Button" HorizontalAlignment="Left" Margin="10,59,0,0" VerticalAlignment="Top" Width="75" Click="Button_Variant_OnClick"/>
+        <Button x:Name="Button_Variant2" Content="Button" HorizontalAlignment="Left" Margin="107,59,0,0" VerticalAlignment="Top" Width="75" Click="Button_Variant_OnClick"/>
+        <Button x:Name="Button_Variant3" Content="Button" HorizontalAlignment="Left" Margin="10,93,0,0" VerticalAlignment="Top" Width="75" Click="Button_Variant_OnClick"/>
+        <Button x:Name="Button_Variant4" Content="Button" HorizontalAlignment="Left" Margin="107,93,0,0" VerticalAlignment="Top" Width="75" Click="Button_Variant_OnClick"/>
+        <TextBlock x:Name="Label_ScorePositive" HorizontalAlignment="Left" Margin="10,126,0,0" TextWrapping="Wrap" Text="Верно - 0" VerticalAlignment="Top"/>
+        <TextBlock x:Name="Label_ScoreNegative" HorizontalAlignment="Left" Margin="107,126,0,0" TextWrapping="Wrap" Text="Неверно - 0" VerticalAlignment="Top" Width="81"/>
+
+    </Grid>
+</Window>
